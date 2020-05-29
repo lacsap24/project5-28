@@ -1,0 +1,80 @@
+.square{
+    height: 250px;
+    width:250px;
+    border: 1px solid black;
+
+}
+#container{
+    height: 50vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#container{
+    height: 40vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 9fr 3fr 1fr;
+  
+    /* background-color: rgb(33, 243, 173); */
+    /* padding: 10px; */
+  }
+  
+  .col-1 {
+    /* background-color: rgba(129, 148, 211, 0.849); */
+    /* border: 2px solid rgba(240, 240, 240, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .col-2 {
+    background-color: rgba(129, 148, 211, 0.849);
+    border: 2px solid rgba(240, 240, 240, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .col-3 {
+    background-color: rgba(129, 148, 211, 0.849);
+    border: 2px solid rgba(240, 240, 240, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .col-9 {
+    background-color: rgba(129, 148, 211, 0.849);
+    border: 2px solid rgba(240, 240, 240, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .hidden-item {
+    /* background-color: rgba(129, 148, 211, 0.849); */
+    /* border: 2px solid rgba(240, 240, 240, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  /* .grid-container {
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: rgb(209, 104, 174);
+    padding: 10px;
+  } */
